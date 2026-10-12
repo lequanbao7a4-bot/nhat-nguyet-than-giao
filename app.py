@@ -43,7 +43,7 @@ loi_dan = (
 
 cai_dat = types.GenerateContentConfig(system_instruction=loi_dan)
 chat = client.chats.create(
-    model="gemini-3.8-flash", 
+    model="gemini-3.6-flash", 
     config=cai_dat, 
     history=lich_su_gemini if lich_su_gemini else None
 )
